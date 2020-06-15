@@ -1,6 +1,7 @@
 def linear_search(arr, target):
-    # Your code here
-
+    for z in range(0, len(arr)):
+        if arr[z] == target:
+            return z
 
     return -1   # not found
 
